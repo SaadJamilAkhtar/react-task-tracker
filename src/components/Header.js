@@ -5,7 +5,7 @@ function Header(props) {
     return (
         <header className={"header"}>
             <h1>{props.title}</h1>
-            <Button color={'green'} text={"Add +"}/>
+            <Button color={props.showAdd? 'green': 'red'} text={props.showAdd? "Add +": "Close"} onClick={props.onToggle} />
         </header>
     );
 }

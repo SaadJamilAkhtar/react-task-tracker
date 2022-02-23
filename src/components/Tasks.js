@@ -8,7 +8,7 @@ function Tasks(props) {
         <>
             {props.tasks.map((task) => {
                 return (
-                    <Task key={task.id} task={task} onDelete={props.onDelete}/>
+                    <Task key={task.id} task={task} onDelete={props.onDelete} onToggle={props.onToggle} />
                 )
             })}
         </>

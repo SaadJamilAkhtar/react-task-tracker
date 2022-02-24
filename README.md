@@ -1,6 +1,6 @@
 # Task Manager App
 ___
-The app is records, add and delete tasks.
+The app records, adds and deletes tasks.
 
 ## Requirements:
 1. React js
